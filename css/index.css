@@ -7,7 +7,7 @@ body{
     height: 100vh;
     font-family: sans-serif;
     background: url(../images/backcover.svg);
-    background-size: 718px 776px;
+    background-size: 618px 776px;
     background-repeat: no-repeat;
     background-position: 692px -112px;
     overflow: hiddens;
@@ -19,6 +19,7 @@ nav{
 }
 nav img{
     margin-left: 130px;
+    width: 110px;
 }
 .nav-items{
     display: flex;
@@ -81,8 +82,76 @@ button{
 
 }
 .imgs-div img:last-child{ 
-    width: 570px;
+    width: 530px;
     margin-top: -20px;
     margin-left: -110px;
+    
 
+}
+@media only screen and (max-width: 460px){
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    nav img{
+        margin-left: -20px;
+    }
+    .nav-items{
+        display: block;
+        color:#3b4385; 
+        
+        font-weight: bolder;
+        font-size: 19px;
+        margin-bottom: 0;
+        
+    }
+    .nav-items h5:hover{
+        color: black;
+        font-weight: 800;
+        cursor: pointer;
+    }
+    .intro-section{
+        flex-direction: column;
+
+    }
+    .left-section h1{
+        font-size: 47px;
+        text-align: center;
+        margin-left: 0;
+    }
+    .left-section h4{
+        width: 440px;
+        flex-wrap: wrap;
+        font-size: 20px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .imgs-div{
+        margin-left: 50px;
+        margin-top: 30px;
+
+
+    }
+    .imgs-div .main{
+        width: 300px;
+        height: 300px;
+    }
+    .vector-img{
+        width: 30px;
+    margin-top: 190px;
+        margin-left: 45px;
+        position: absolute;
+
+
+    }
+    .vector-dot{
+        width: 10px;
+        margin-left: 60px;
+        margin-top: 185px;
+    
+    }
+   
 }
