@@ -23,7 +23,7 @@ nav img{
 }
 .nav-items{
     display: flex;
-    margin: 20px 300px;
+    margin: 20px 350px;
     color:#3b4385; 
 
     font-weight: bolder;
@@ -81,6 +81,10 @@ button{
     margin-left: 5px;
 
 }
+.imgs-div{
+    /* border: 3px solid red; */
+    /* width: 100%; */
+}
 .imgs-div img:last-child{ 
     width: 530px;
     margin-top: -20px;
@@ -88,55 +92,51 @@ button{
     
 
 }
-@media only screen and (max-width: 460px){
-    nav{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
+.fa-solid{
+    font-size: 33px;
+    opacity: 0;
+}
+@media(max-width: 570.79px){
+    nav img{
+        margin: 0;
+        padding: 20px;
+       
 
     }
-    nav img{
-        margin-left: -20px;
+    .fa-solid{
+        opacity: 1;
+        padding: 25px;
+        right: 0;
+        position: absolute;
     }
-    .nav-items{
-        display: block;
-        color:#3b4385; 
-        
-        font-weight: bolder;
-        font-size: 19px;
-        margin-bottom: 0;
-        
-    }
-    .nav-items h5:hover{
-        color: black;
-        font-weight: 800;
-        cursor: pointer;
+    .nav-items, .signin-btn{
+        display: none; 
     }
     .intro-section{
+        width: 100%;
+        align-items: center;
         flex-direction: column;
-
     }
+    .left-section{
+        margin: auto;
+        width: 100%;
+        /* border: 3px solid red; */
+    }
+    
     .left-section h1{
         font-size: 47px;
-        text-align: center;
-        margin-left: 0;
+        margin-top: 30px;
     }
     .left-section h4{
-        width: 440px;
-        flex-wrap: wrap;
-        font-size: 20px;
+        font-size: 17px;
         text-align: center;
         margin-left: 10px;
     }
     .imgs-div{
-        margin-left: 50px;
         margin-top: 30px;
-
-
     }
     .imgs-div .main{
-        width: 300px;
+        /* width: 400px; */
         height: 300px;
     }
     .vector-img{
