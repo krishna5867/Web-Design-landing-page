@@ -96,7 +96,7 @@ button{
     font-size: 33px;
     opacity: 0;
 }
-@media(max-width: 570.79px){
+@media(max-width: 560.79px){
     nav img{
         margin: 0;
         padding: 20px;
